@@ -1,0 +1,51 @@
+/* 
+   Lakeland Reeds Bed and Breakfast style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit G, Lessons
+ */
+
+ /* reset styles */
+ * {
+     margin: 0;
+     Padding: 0;
+     font-family: sans-serif;
+ }
+ html {
+     font-size: 16px;
+     margin:0px;
+     padding:0px;
+     font-family:'Roboto', 'Times New Roman', serif, sans-serif;
+ }
+ #sidebar {
+     position:fixed;
+     width: 200px;
+     height:100%;
+     background:#cf3df7;
+     left:-200px;
+     transition: all 500ms linear;
+     text-align: center;
+ }
+ #sidebar.active {
+     left:0px;
+ }
+ #sidebar ul li{
+     color:rgb(56, 79, 247);
+     list-style:none;
+     padding:15px 10px;
+     border-bottom: 1px solid rgb(100,100,100);
+ }
+ #sidebar .threeStripeButton {
+     position:absolute;
+     left:230px;
+     top:20px;
+ }
+ #sidebar .threeStripeButton span {
+     display:block;
+     width:30px;
+     height:5px;
+     background:#cf3df7;
+     margin: 5px 0px;
+ }

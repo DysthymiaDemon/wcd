@@ -1,0 +1,19 @@
+body {
+    background-color: lightsalmon;
+    text-align: center;
+}
+#contact {
+    text-align: right;
+}
+.accent {
+    color: lightgreen;
+}
+h1, #contact {
+    background-color: lightyellow;
+    color: dimgray;
+}
+
+footer {
+    color: lightcoral;
+    background-color:grey;
+}

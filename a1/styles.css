@@ -1,0 +1,229 @@
+﻿/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit F, Visual Workshop
+ */
+
+/* reset styles */
+html {
+   font-size: 12px;
+}
+article, body, div, footer, header, h1, h2, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body */
+/* body and page container */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+/*   background-color: rgb(253,245,230); */
+   background-image: url(images/purple.jpg);
+   background-position: center center;
+/*   background-repeat: no-repeat; */
+}
+.container {
+   max-width: 1024px;
+   margin: 0 auto;
+/*   background-color: rgb(253,245,230); */
+   position: relative;
+   height: 50%;
+}
+
+p {
+   font-size: 1.4em;
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+/* header section */
+#indexHeader {
+    font-family: 'Kalam', 'Times New Roman', Times, serif
+}
+header {
+   text-align: center;
+   background-color: #bdccd4;
+   font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+   font-weight: 900;
+}
+header h1 {
+   font-size: 3.2em;
+   padding: 5px;
+   -webkit-animation: pulsate 20s linear infinite;
+   -moz-animation: pulsate 20s linear infinite;
+   animation: pulsate 20s linear infinite;
+   text-align: center;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 1.0em;
+}
+
+/*site navigation bar*/
+nav.sitenavigation {
+    width: 100%;
+    background-color: #25110a;
+    text-align: center; 
+    padding: 1px;
+}
+
+nav.sitenavigation p {
+    display: inline-block;
+    margin: 0.5em;
+    border: 3px white inset;
+
+}
+
+a:visited {
+    color:  darkgoldenrod;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus{
+    color: greenyellow;
+}
+
+nav.sitenavigation a:active {
+    border: 3px white outset;
+}
+
+
+/* main content */
+article {
+   width: 60%;
+   padding: 2%;
+   border: 4px inset indianred;
+   margin: 1%;
+   float: left;
+}
+
+article div.container {
+   padding: 2%;
+   background-color: violet;
+}
+
+article h2 {
+   margin-bottom: 0.4em;
+   font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+   font-weight: 900;
+   font-size: 2em;
+}
+
+article p {
+   margin: 0 0 0.8em 1em;
+}
+
+article span {
+   font-weight: bold;
+}
+
+#LoremIpsumOne {
+    padding: 2px;
+}
+
+/* sidebar */
+aside {
+   width: 28%;
+   height:  auto;
+   padding: 1%;
+   margin: 9.6px;
+   float: right;
+   border: 4px groove indianred;
+}
+
+#firstPageAside {
+    background-color: rgb(243, 228, 11);
+}
+aside p {
+   padding: 0.4em;
+   margin-bottom: 0.6em;
+   font-size: 1.6em;
+   text-align: center;
+}
+#ihcColor {
+    color: rgb(23, 165, 1);
+
+}
+
+/* footer section */
+footer {
+   padding: 0.5em;
+   clear: both;
+   text-align: right;
+   -webkit-animation: pulsate 20s linear infinite;
+   -moz-animation: pulsate 20s linear infinite;
+   animation: pulsate 20s linear infinite;
+}
+.cert {
+    display: inline-block;
+}
+
+/* keyframe animation points */
+/* for chrome 4.0/safari 4.0/opera browser 15.0 onwards */
+@-webkit-keyframes pulsate {
+    0% {background: black}
+    10% {background: white}
+    20% {background: red}
+    30% {background: orange}
+    40% {background: yellow}
+    50% {background: green}
+    60% {background: blue}
+    70% {background: indigo}
+    80% {background: violet}
+    90% {background: brown}
+    100% {background: black}
+}
+/* for firefox 5.0 onwards*/
+@-moz-keyframes pulsate {
+    0% {background: black}
+    10% {background: white}
+    20% {background: red}
+    30% {background: orange}
+    40% {background: yellow}
+    50% {background: green}
+    60% {background: blue}
+    70% {background: indigo}
+    80% {background: violet}
+    90% {background: brown}
+    100% {background: black}
+}
+/* for chrome/msEdge/firefox/safari/opera */
+@keyframes pulsate {
+    0% {background: black}
+    10% {background: white}
+    20% {background: red}
+    30% {background: orange}
+    40% {background: yellow}
+    50% {background: green}
+    60% {background: blue}
+    70% {background: indigo}
+    80% {background: violet}
+    90% {background: brown}
+    100% {background: black}
+}
+
+/* print styles */
+@media print {
+   body, h1, article, footer {
+      background-color: rgb(255,255,255);
+   }
+   body {
+      max-width: 100%;
+   }
+}
+@page {
+   margin: 0.75in;
+}
