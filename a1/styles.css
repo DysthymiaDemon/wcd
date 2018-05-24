@@ -10,7 +10,8 @@
 /* reset styles */
 html {
    font-size: 12px;
-   max-width: 1024px;
+   max-width: 960px;
+   margin: auto;
 }
 article, body, div, footer, header, h1, h2, nav, p {
    border: 0;
@@ -46,7 +47,7 @@ a:active {
 
 /* header section */
 #indexHeader {
-    font-family: 'Kalam', 'Times New Roman', Times, serif
+    font-family: 'Kalam', 'Times New Roman', Times, serif;
 }
 header {
    text-align: center;
@@ -159,12 +160,12 @@ anotherone h2 {
     font-family: "Kalam", Arial, Helvetica, sans-serif;
     border-bottom: 2px ridge #070aed;
     color: oldlace;
-    background-color: rgb(10, 145, 17)
+    background-color: rgb(10, 145, 17);
 }
 
 anotherone p {
     color: whitesmoke;
-    background-color: rgb(10, 145, 17)
+    background-color: rgb(10, 145, 17);
 }
 /* bottom right element */
 aside {
