@@ -10,6 +10,7 @@
 /* reset styles */
 html {
    font-size: 12px;
+   max-width: 1024px;
 }
 article, body, div, footer, header, h1, h2, nav, p {
    border: 0;
@@ -27,7 +28,6 @@ body {
 /*   background-repeat: no-repeat; */
 }
 .container {
-   max-width: 1024px;
    margin: 0 auto;
 /*   background-color: rgb(253,245,230); */
    position: relative;
