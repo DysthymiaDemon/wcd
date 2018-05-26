@@ -171,14 +171,14 @@ article span {
     float: left;
 }
 
-anotherone h2 {
+section h2 {
     font-family: "Kalam", Arial, Helvetica, sans-serif;
     border-bottom: 2px ridge #ec0707;
     color: oldlace;
     background-color: rgb(10, 145, 17);
 }
 
-anotherone p {
+section p {
     color: whitesmoke;
     background-color: rgb(10, 145, 17);
 }
