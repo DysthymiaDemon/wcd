@@ -12,6 +12,7 @@ html {
    font-size: 12px;
    max-width: 1280px;
    margin: auto;
+   overflow: auto;
 }
 article, body, div, footer, header, h1, h2, nav, p {
    border: 0;
