@@ -223,45 +223,45 @@ footer {
 /* keyframe animation points */
 /* for chrome 4.0/safari 4.0/opera browser 15.0 onwards */
 @-webkit-keyframes pulsate {
-    0% {background: red}
-    10% {background: orange}
-    20% {background: yellow}
-    30% {background: green}
-    40% {background: blue}
-    50% {background: indigo}
-    60% {background: violet}
+    0% {background: rgb(255, 0, 0)}
+    10% {background: #ffa600}
+    20% {background: rgb(255, 255, 0)}
+    30% {background: rgb(0, 255, 0)}
+    40% {background: rgb(0, 102, 255)}
+    50% {background: rgb(149, 0, 255)}
+    60% {background: rgb(250, 84, 250)}
     70% {background: brown}
     80% {background: black}
     90% {background: white}
-    100% {background: red}
+    100% {background: rgb(255, 0, 0)}
 }
 /* for firefox 5.0 onwards*/
 @-moz-keyframes pulsate {
-    0% {background: red}
-    10% {background: orange}
-    20% {background: yellow}
-    30% {background: green}
-    40% {background: blue}
-    50% {background: indigo}
-    60% {background: violet}
+    0% {background: rgb(255, 0, 0)}
+    10% {background: #ffa600}
+    20% {background: rgb(255, 255, 0)}
+    30% {background: rgb(0, 255, 0)}
+    40% {background: rgb(0, 102, 255)}
+    50% {background: rgb(149, 0, 255)}
+    60% {background: rgb(250, 84, 250)}
     70% {background: brown}
     80% {background: black}
     90% {background: white}
-    100% {background: red}
+    100% {background: rgb(255, 0, 0)}
 }
 /* for chrome/msEdge/firefox/safari/opera */
 @keyframes pulsate {
-    0% {background: red}
-    10% {background: orange}
-    20% {background: yellow}
-    30% {background: green}
-    40% {background: blue}
-    50% {background: indigo}
-    60% {background: violet}
+    0% {background: rgb(255, 0, 0)}
+    10% {background: #ffa600}
+    20% {background: rgb(255, 255, 0)}
+    30% {background: rgb(0, 255, 0)}
+    40% {background: rgb(0, 102, 255)}
+    50% {background: rgb(149, 0, 255)}
+    60% {background: rgb(250, 84, 250)}
     70% {background: brown}
     80% {background: black}
     90% {background: white}
-    100% {background: red}
+    100% {background: rgb(255, 0, 0)}
 }
 
 /* print styles */
