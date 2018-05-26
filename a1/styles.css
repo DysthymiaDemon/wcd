@@ -87,7 +87,7 @@ a:active {
 }
 
 a:visited {
-    color:  darkgoldenrod;
+    color:  #ffffff;
 }
 
 a:link {
@@ -97,10 +97,10 @@ a:link {
 }
 nav.sitenavigation a:hover{
     transition-duration: 0.2s;
-    color: greenyellow;
+    color: rgb(251, 255, 0);
 }
 nav.sitenavigation a:focus{
-    color: greenyellow;
+    color: #da0808;
 }
 
 nav.sitenavigation a:active {
@@ -165,7 +165,7 @@ article span {
     padding: 1%;
     border-width: 8px;
     border-style: groove;
-    border-color: greenyellow;
+    border-color: #1414ca;
     margin: 1%;
     font-family: "Playfair Display", 'Times New Roman', Times, serif, sans-serif;
     float: left;
@@ -229,12 +229,12 @@ footer {
     0% {background: rgb(255, 0, 0)}
     10% {background: #ffa600}
     20% {background: rgb(255, 255, 0)}
-    30% {background: rgb(0, 255, 0)}
+    30% {background: #00ff00}
     40% {background: rgb(0, 102, 255)}
-    50% {background: rgb(149, 0, 255)}
+    50% {background: #9500ff}
     60% {background: rgb(250, 84, 250)}
     70% {background: brown}
-    80% {background: black}
+    80% {background: #000000}
     90% {background: white}
     100% {background: rgb(255, 0, 0)}
 }
@@ -243,12 +243,12 @@ footer {
     0% {background: rgb(255, 0, 0)}
     10% {background: #ffa600}
     20% {background: rgb(255, 255, 0)}
-    30% {background: rgb(0, 255, 0)}
+    30% {background: #00ff00}
     40% {background: rgb(0, 102, 255)}
-    50% {background: rgb(149, 0, 255)}
+    50% {background: #9500ff}
     60% {background: rgb(250, 84, 250)}
     70% {background: brown}
-    80% {background: black}
+    80% {background: #000000}
     90% {background: white}
     100% {background: rgb(255, 0, 0)}
 }
@@ -257,12 +257,12 @@ footer {
     0% {background: rgb(255, 0, 0)}
     10% {background: #ffa600}
     20% {background: rgb(255, 255, 0)}
-    30% {background: rgb(0, 255, 0)}
+    30% {background: #00ff00}
     40% {background: rgb(0, 102, 255)}
-    50% {background: rgb(149, 0, 255)}
+    50% {background: #9500ff}
     60% {background: rgb(250, 84, 250)}
     70% {background: brown}
-    80% {background: black}
+    80% {background: #000000}
     90% {background: white}
     100% {background: rgb(255, 0, 0)}
 }
