@@ -149,6 +149,7 @@ article span {
 
 .gallery {
     display: inline-block;
+    padding: 2px;
 }
 
 /*bottom left element*/
@@ -195,10 +196,6 @@ aside p {
 }
 #ihcColor {
     color: rgb(23, 165, 1);
-
-}
-.UstadImages {
-    padding: 4px;
 
 }
 
