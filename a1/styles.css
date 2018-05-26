@@ -10,7 +10,7 @@
 /* reset styles */
 html {
    font-size: 12px;
-   max-width: 960px;
+   max-width: 1280px;
    margin: auto;
 }
 article, body, div, footer, header, h1, h2, nav, p {
@@ -22,11 +22,11 @@ article, body, div, footer, header, h1, h2, nav, p {
 /* body */
 /* body and page container */
 body {
-   font-family: Verdana, Geneva, sans-serif;
-/*   background-color: rgb(253,245,230); */
-   background-image: url(images/purple.jpg);
-   background-position: center center;
-   background-attachment: fixed;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: rgb(253,245,230); 
+    background-image: url(images/purple.jpg);
+    background-position: center center;
+    background-attachment: fixed;
 /*   background-repeat: no-repeat; */
 }
 .container {
@@ -94,13 +94,16 @@ a:link {
     color: blue;
 /*    border: 3px white inset; */
 }
-nav.sitenavigation a:hover, nav.sitenavigation a:focus{
-    transition-duration: 0.4s;
+nav.sitenavigation a:hover{
+    transition-duration: 0.2s;
+    color: greenyellow;
+}
+nav.sitenavigation a:focus{
     color: greenyellow;
 }
 
 nav.sitenavigation a:active {
-    border: 3px white outset;
+    border: 5px white outset;
 }
 
 
@@ -142,6 +145,10 @@ article span {
 
 #LoremIpsumTwo {
     padding: 2px;
+}
+
+.gallery {
+    display: inline-block;
 }
 
 /*bottom left element*/
@@ -190,6 +197,10 @@ aside p {
     color: rgb(23, 165, 1);
 
 }
+.UstadImages {
+    padding: 4px;
+
+}
 
 /* footer section */
 footer {
@@ -200,6 +211,10 @@ footer {
    -webkit-animation: pulsate 20s linear infinite;
    -moz-animation: pulsate 20s linear infinite;
    animation: pulsate 20s linear infinite;
+}
+
+#footerinfo {
+    text-align: left;
 }
 .cert {
     display: inline-block;
