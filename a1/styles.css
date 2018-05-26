@@ -128,6 +128,11 @@ article div.container {
    background-color: violet;
 }
 
+article div.galleryContainer {
+   padding: 1%;
+   background-color: violet;
+}
+
 article h2 {
    margin-bottom: 0.6em;
    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
