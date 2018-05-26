@@ -149,7 +149,7 @@ article span {
     width: 60%;
     height: 10%;
     padding: 1%;
-    border-width: 4px;
+    border-width: 8px;
     border-style: groove;
     border-color: greenyellow;
     margin: 1%;
@@ -159,7 +159,7 @@ article span {
 
 anotherone h2 {
     font-family: "Kalam", Arial, Helvetica, sans-serif;
-    border-bottom: 2px ridge #070aed;
+    border-bottom: 2px ridge #ec0707;
     color: oldlace;
     background-color: rgb(10, 145, 17);
 }
@@ -208,45 +208,45 @@ footer {
 /* keyframe animation points */
 /* for chrome 4.0/safari 4.0/opera browser 15.0 onwards */
 @-webkit-keyframes pulsate {
-    0% {background: black}
-    10% {background: white}
-    20% {background: red}
-    30% {background: orange}
-    40% {background: yellow}
-    50% {background: green}
-    60% {background: blue}
-    70% {background: indigo}
-    80% {background: violet}
-    90% {background: brown}
-    100% {background: black}
+    0% {background: red}
+    10% {background: orange}
+    20% {background: yellow}
+    30% {background: green}
+    40% {background: blue}
+    50% {background: indigo}
+    60% {background: violet}
+    70% {background: brown}
+    80% {background: black}
+    90% {background: white}
+    100% {background: red}
 }
 /* for firefox 5.0 onwards*/
 @-moz-keyframes pulsate {
-    0% {background: black}
-    10% {background: white}
-    20% {background: red}
-    30% {background: orange}
-    40% {background: yellow}
-    50% {background: green}
-    60% {background: blue}
-    70% {background: indigo}
-    80% {background: violet}
-    90% {background: brown}
-    100% {background: black}
+    0% {background: red}
+    10% {background: orange}
+    20% {background: yellow}
+    30% {background: green}
+    40% {background: blue}
+    50% {background: indigo}
+    60% {background: violet}
+    70% {background: brown}
+    80% {background: black}
+    90% {background: white}
+    100% {background: red}
 }
 /* for chrome/msEdge/firefox/safari/opera */
 @keyframes pulsate {
-    0% {background: black}
-    10% {background: white}
-    20% {background: red}
-    30% {background: orange}
-    40% {background: yellow}
-    50% {background: green}
-    60% {background: blue}
-    70% {background: indigo}
-    80% {background: violet}
-    90% {background: brown}
-    100% {background: black}
+    0% {background: red}
+    10% {background: orange}
+    20% {background: yellow}
+    30% {background: green}
+    40% {background: blue}
+    50% {background: indigo}
+    60% {background: violet}
+    70% {background: brown}
+    80% {background: black}
+    90% {background: white}
+    100% {background: red}
 }
 
 /* print styles */
