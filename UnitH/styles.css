@@ -2,8 +2,8 @@
    Revisions Bookstore and Cafe style sheet 
    Filename: styles.css
 
-   Author:   
-   Date:     
+   Author:   Ameen Khan
+   Date:     30/6/2018
    HTML5 and CSS3 Illustrated Unit H, Visual Workshop
  */
 
@@ -11,16 +11,10 @@
 html {
    font-size: 17px;
 }
-a, article, body, div, footer, header, h1, h2, 
-h3, img, nav, p,table, tboday,td,tfoot,th,thead,tr {
+*{
    border: 0;
    padding: 0;
    margin: 0;
-}
-td, th{
-
-  border: 1px solid black;
-  font-size: 1.3em;
 }
 img {
    max-width: 100%;
@@ -86,9 +80,14 @@ nav.sitenavigation div {
    float: right;
    text-align: center;
 }
-nav.sitenavigation p {
-   margin: 0.2em 0.6em;
-   display: inline-block;
+nav.sitenavigation ul {
+    width: 74%;
+    float: right;
+    text-align: center;
+}
+nav.sitenavigation li {
+    margin: 0.2em 0.6em;
+    display: inline-block;
 }
 nav.sitenavigation a:link {
    text-decoration: none;
