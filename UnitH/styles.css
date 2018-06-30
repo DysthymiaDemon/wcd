@@ -117,7 +117,6 @@ article div.container {
    padding: 0;
    background-color: white;
    overflow: auto;
-   box-shadow: 0 0 8px #333;
 }
 article h2 {
    margin-bottom: 0.4em;
