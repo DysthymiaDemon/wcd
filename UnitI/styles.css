@@ -183,7 +183,24 @@ footer a:link {
 footer a:visited {
    color: #ccc;
 }
-
+/* small screen/tablet styles */
+@media screen and (min-width: 460px), print {
+    article {
+        padding: 2%;
+    }
+    figure {
+        border: 1px solid #ccc;
+        padding: 2%;
+        box-shadow: 0 10px 6px -6px #777;
+        display: inline-block;
+    }
+    section {
+        text-align: center;
+    }
+    section h3, section p {
+        text-align: left;
+    }
+}
 /* print styles */
 @media print {
    body, h1, article, footer {
