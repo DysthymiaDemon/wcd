@@ -201,6 +201,24 @@ footer a:visited {
         text-align: left;
     }
 }
+/* Standard screen styles*/
+@media screen and (min-width: 880px) {
+    h3 {
+        float: left;
+    }
+    figure {
+        float: right;
+        max-width: 50%;
+        margins: 2% 0 2% 2%;
+    }
+    section {
+        padding-bottom: 2%;
+    }
+    .top-link {
+        right: auto;
+        left: 0;
+    }
+}
 /* print styles */
 @media print {
    body, h1, article, footer {
