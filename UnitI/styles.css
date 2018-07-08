@@ -209,7 +209,7 @@ footer a:visited {
     figure {
         float: right;
         max-width: 50%;
-        margins: 2% 0 2% 2%;
+        margin: 2% 0 2% 2%;
     }
     section {
         padding-bottom: 2%;
