@@ -201,12 +201,13 @@ label {
     line-height: 1.6em;
 }
 .contactInfo label {
-    display: block;
+    display: inline-block;
     position: relative;
     margin: 0.8em 0;
 }
 .topicsOfInterest, .preferredContactMethod label {
     margin-right: 1.6em;
+    display: inline-block;
 }
 /* footer section */
 footer {
