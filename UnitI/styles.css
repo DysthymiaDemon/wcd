@@ -168,7 +168,12 @@ figure {
    margin-bottom: 1.6em;
    background-color: white;
 }
-
+form {
+    display: block;
+}
+fieldset {
+    display: block;
+}
 /* field styles */
 .contactInfo input, textarea{
     border: 1px solid #ccc;
@@ -208,6 +213,9 @@ label {
 .topicsOfInterest label, .preferredContactMethod label {
     margin-right: 1.6em;
     display: block;
+}
+.one label {
+    display: block
 }
 /* footer section */
 footer {
