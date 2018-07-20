@@ -10,10 +10,8 @@
 var smallbutton = document.querySelector(".smaller-size");
 var applyall = document.querySelector("html");
 
-makeItSmaller.className = "html .smallersize";
-
-applyall.addEventListener("click", fontsmaller, false);
-
 function fontsmaller() {
-  applyall.className = ("smallbutton");
+  applyall.className = "smaller-size";
 }
+
+smallbutton.addEventListener("click",fontsmaller);
