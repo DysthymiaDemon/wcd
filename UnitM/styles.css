@@ -88,12 +88,19 @@ header img {
 .smaller-size {
    font-size: 14px;
 }
+.default-size {
+  font-size: 17px;
+}
 .larger-size {
    font-size: 20px;
 }
 .selected-button {
-   background-color: white;
-   color: black;
+  background-color: black;
+  color: white;
+}
+.whiteout {
+  background-color: white;
+  color: black;
 }
 
 /* site navigation */
