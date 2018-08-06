@@ -4,4 +4,12 @@
 
    Author: Ameen Khan   
    Date: 17/05/2018
- */
+*/
+
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  max-width: 1280px;
+}
