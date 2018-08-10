@@ -9,7 +9,7 @@
 /* reset styles */
 html {
    font-size: 12px;
-   max-width: 1280px;
+   max-width: 100%;
    margin: auto;
    overflow: auto;
 }
