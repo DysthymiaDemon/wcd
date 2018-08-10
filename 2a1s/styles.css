@@ -13,3 +13,61 @@
   overflow: auto;
   max-width: 1280px;
 }
+
+/*body*/
+/*container*/
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: rgb(253,245,230); 
+  background-image: url(images/background.png);
+  background-position: center center;
+  background-attachment: fixed;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  height: 50%;
+}
+p {
+  font-size: 1.4em;
+  word-break: keep-all;
+}
+
+/*headbar section*/
+header {
+  text-align: center;
+  background-color: #bdccd4;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+/*headnavbar*/
+nav.headnavbar{
+  width: 100%;
+  background-color: #25110a;
+  text-align: center; 
+  padding: 1px;
+}
+nav.headnavbar p{
+  display: inline-block;
+  margin: 0.5em;
+}
+a:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+a:visited {
+  color:  #ffffff;
+}
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+nav.headnavbar a:hover{
+  transition-duration: 0.2s;
+  color: rgb(251, 255, 0);
+}
+nav.headnavbar a:focus{
+  color: #da0808;
+}
