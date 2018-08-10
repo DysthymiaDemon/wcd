@@ -38,3 +38,55 @@
                             </nav>
                         </h1>
                     </header>
+                <article id="formstart">
+                    <h3>Contact Us</h3>
+                    <form action="results.html">
+                        <div id="form">
+                            <fieldset class="contactInfo">
+                                <legend>Contact Information</legend>
+                                    <label for="firstNameInput">
+                                        First Name
+                                        <input type="text" name="firstName" id="firstNameInput" placeholder="Your First Name">
+                                    </label>
+                                    <label for="lastNameInput">
+                                        Last name
+                                       <input type="text" name="lastName" id="lastNameInput" placeholder="Your Last Name">
+                                    </label>
+                                    <label for="emailInput">
+                                        Email
+                                        <input type="email" name="email" id="emailInput" placeholder="example@mail.com">
+                                    </label>
+                                    <label for="phoneInput">
+                                        Phone
+                                        <input type="tel" name="phone" id="phoneInput" placeholder="Your Number">
+                                    </label>
+                                </fieldset>
+                                <fieldset class="preferredContactMethod">
+                                        <legend>Preferred contact method</legend>
+                                        <label for="email">
+                                            <input type="radio" name="preferredContactMethod" id="email"
+                                            value="Email">
+                                            Email
+                                        </label>
+                                        <label for="phone">
+                                            <input type="radio" name="preferredContactMethod" id="phone"
+                                            value="Phone">
+                                            Phone
+                                        </label>
+                                        <label for="either">
+                                            <input type="radio" name="preferredContactMethod" id="either"
+                                            value="Either" checked>
+                                            Either
+                                        </label>
+                                    </fieldset>
+                                    <fieldset class="liketoask">
+                                            <legend>Any questions you would like to ask?</legend>
+                                            <label for="yes">
+                                                Questions or topic ideas for new writing Groups
+                                                <textarea name="anythingElse" id="anythingElse" rows="4" cols="55" placeholder="Anything at all?"></textarea>
+                                            </label>
+                                        </fieldset>
+                            </fieldset>
+                        </div>
+                    </form>
+                </article>
