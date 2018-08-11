@@ -26,6 +26,14 @@ body {
   margin: 0 auto;
   position: relative;
 }
+.galleryContainer{
+  height: auto;
+  width: 90%;
+}
+.gallery{
+  display: inline-block;
+  margin: 2%;
+}
 p {
   font-size: 1em;
   word-break: keep-all;
