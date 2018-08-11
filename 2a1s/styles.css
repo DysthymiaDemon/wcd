@@ -116,8 +116,6 @@ article {
 #ICMinfo{
   height: auto;
   padding: 2%;
-  padding-top: 4%;
-  padding-bottom: 4%;
 }
 aside {
   width: 39%;
@@ -144,7 +142,9 @@ aside {
   height: auto;
   padding: 2%;
 }
-
+.paragraph{
+  padding: 2%;
+}
 /*buttons*/
 #Btn{
   display: none;
@@ -171,6 +171,7 @@ footer {
   clear: both;
   text-align: center;
   font-family: "Kalam", Arial, Helvetica,serif, sans-serif;
+  font-size: 1.4em;
 }
 
 /* print styles */
