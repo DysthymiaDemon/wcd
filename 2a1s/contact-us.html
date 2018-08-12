@@ -37,55 +37,32 @@
                                 <p><a href="contactus.html">Contact Us</a></p>
                             </nav>
                     </header>   
-                <article id="contentstart">
-                    <h3>Contact Us</h3>
+                <article>
                     <form action="results.html">
-                        <div id="form">
-                            <fieldset class="contactInfo">
-                                <legend>Contact Information</legend>
-                                    <label for="firstNameInput">
-                                        First Name
-                                        <input type="text" name="firstName" id="firstNameInput" placeholder="Your First Name">
-                                    </label>
-                                    <label for="lastNameInput">
-                                        Last name
-                                       <input type="text" name="lastName" id="lastNameInput" placeholder="Your Last Name">
-                                    </label>
-                                    <label for="emailInput">
-                                        Email
-                                        <input type="email" name="email" id="emailInput" placeholder="example@mail.com">
-                                    </label>
-                                    <label for="phoneInput">
-                                        Phone
-                                        <input type="tel" name="phone" id="phoneInput" placeholder="Your Number">
-                                    </label>
-                                </fieldset>
-                                <fieldset class="preferredContactMethod">
-                                        <legend>Preferred contact method</legend>
-                                        <label for="email">
-                                            <input type="radio" name="preferredContactMethod" id="email"
-                                            value="Email" checked>
-                                            Email
-                                        </label>
-                                        <label for="phone">
-                                            <input type="radio" name="preferredContactMethod" id="phone"
-                                            value="Phone">
-                                            Phone
-                                        </label>
-                                        <label for="either">
-                                            <input type="radio" name="preferredContactMethod" id="either"
-                                            value="Either">
-                                            Either
-                                        </label>
-                                    </fieldset>
-                                    <fieldset class="liketoask">
-                                            <legend>Any questions you would like to ask?</legend>
-                                            <label for="yes">
-                                                Any enquiries?
-                                                <textarea name="yes" id="yes" rows="4" cols="55" placeholder="Yes?"></textarea>
-                                            </label>
-                                        </fieldset>
-                        </article>
+                        <fieldset class="contactinfo">
+                            <legend>Contact Information</legend>
+                            <label for="nameinput">
+                                Name
+                                <input type="text" name="name" id="nameinput" placeholder="Your Name">
+                            </label>
+                            <label for="emailinput">
+                                Email
+                                <input type="email" name="email" id="emailinput" placeholder="emailaddress@example.com">
+                            </label>
+                        </fieldset>
+                        <fieldset class="toask">
+                            <legend>Anything to enquire?</legend>
+                            <label for="enquries">
+                                Anything at all?
+                                <textarea name="enquries" id="enquries" rows="4" cols="55">
+                                </textarea>
+                            </label>
+                        </fieldset>
+                        <fieldset class="submitbutton">
+                            <input type="submit" id="submit" value="Submit">
+                        </fieldset>
+                    </form>
+                </article>
                             <footer>
                                     <p>Thanks for stopping by!
                                         If you like what you see, come chat with me!</p>
