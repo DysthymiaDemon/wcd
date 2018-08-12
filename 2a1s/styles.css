@@ -134,6 +134,7 @@ form{
   position: relative;
   width: auto;
   text-align: center;
+  align-content: center;
 }
 .hide{
   display: none;
