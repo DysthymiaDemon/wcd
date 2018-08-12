@@ -49,11 +49,14 @@ header {
 
 /*headnavbar*/
 nav.headnavbar{
-  width: 100%;
+  width: auto;
   height: 200px;
   text-align: center; 
+  margin-top: 10px;
+  margin: 1%;
   padding: 1px;
   overflow: hidden;
+  border: 2px dashed hsl(0, 0%, 50%);
 }
 nav.headnavbar p{
   color: black;
@@ -98,24 +101,31 @@ nav.headnavbar a:focus{
 
 /*main content*/
 article {
-  width: 50%;
-  max-width: 100%;
+  width: 45%;
+  max-width: 99%;
   padding: 1px;
   height: 20em;
   border-width: 2px;
   border-style: dotted;
   border-color: indianred;
-  margin: 1px;
+  margin: 1%;
   float: left;
 }
 #indexarticle{
   margin-top: 2em;
   padding: 5%;
   border: none;
+  font-size: 1.5em;
 }
 #ICMinfo{
   height: auto;
-  padding: 2%;
+  padding: 2.5%;
+  font-size: 1.4em;
+}
+article #form, form{
+  position: relative;
+  width: auto;
+  text-align: center;
 }
 aside {
   width: 39%;
@@ -137,6 +147,9 @@ aside {
 #typography{
   font-family: "Roboto",Arial, Helvetica, sans-serif;
   font-weight: 900;
+}
+.Kalam{
+  font-family: "Kalam", Arial, Helvetica, sans-serif;
 }
 #ICMphotos{
   height: auto;
@@ -170,6 +183,10 @@ label{
   position: relative;
   margin: 0.8em 0;
 }
+fieldset{
+  margin-top: 1em;
+  border: 1px solid #777;
+}
 #submit{
   border: none;
   padding: 0.4em 0.6em;
@@ -177,10 +194,14 @@ label{
   font-size: 1.25em;
   border-radius: 10px;
 }
+.submitbutton{
+  border: none;
+}
+
 
 /*button*/
 #myBtn {
-  display: none;
+  display: block;
   position: fixed;
   bottom: 20px;
   right: 30px;
