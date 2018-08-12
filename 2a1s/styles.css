@@ -19,7 +19,7 @@ body {
   font-family: Verdana, Geneva, sans-serif;
   background-color: rgb(253,245,230); 
   background-image: url(images/background.png);
-  background-position: bottom center;
+  background-position: center center;
   background-attachment: fixed;
 }
 .container {
@@ -33,6 +33,7 @@ body {
 .gallery{
   display: inline-block;
   margin: 2%;
+  font-size: 1em;
 }
 p {
   font-size: 1em;
@@ -129,7 +130,7 @@ article {
   padding: 2.5%;
   font-size: 1.4em;
 }
-article#form, form{
+form{
   position: relative;
   width: auto;
   text-align: center;
@@ -240,8 +241,13 @@ footer {
   font-size: 1.4em;
 }
 
-/* print styles */
-@media only screen and (max-width: 600px) {
+/* display and print styles */
+@media only screen and (max-width: 640px) {
+  body {
+  background-image: url(images/background2.png);
+  background-position: center center;
+  background-attachment: fixed;
+  }
   #indexarticle{
     text-align: center;
     width: 95%;
@@ -281,6 +287,14 @@ footer {
   footer div{
     text-align: center;
     display: inline;
+  }
+  article.galleryContainer a{
+    max-width: 90%;
+    max-height: 90%;
+    size: auto;
+  }
+  article.form{
+    width: auto;
   }
 }
 @media print {

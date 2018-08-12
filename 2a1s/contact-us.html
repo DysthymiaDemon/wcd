@@ -39,6 +39,7 @@
                     </header>   
                 <article class="form">
                     <form action="results.html">
+                        <div id="formboxes">
                         <fieldset class="contactinfo">
                             <legend>Contact Information</legend>
                             <label for="nameinput">
@@ -47,19 +48,20 @@
                             </label>
                             <label for="emailinput">
                                 Email
-                                <input type="email" name="email" id="emailinput" placeholder="emailaddress@example.com">
+                                <input type="email" name="email" id="emailinput" placeholder="emailaddress@example.com" required>
                             </label>
                         </fieldset>
                         <fieldset class="toask">
                             <legend>Anything to enquire?</legend>
                             <label for="enquries">
-                                <textarea name="enquries" id="enquries" rows="4" cols="55" placeholder="Yes?">
+                                <textarea name="enquries" id="enquries" rows="4" cols="55" placeholder="Yes?" required>
                                 </textarea>
                             </label>
                         </fieldset>
                         <fieldset class="submitbutton">
                             <input type="submit" id="submit" value="Submit">
                         </fieldset>
+                        </div>
                     </form>
                 </article>
                             <footer>
