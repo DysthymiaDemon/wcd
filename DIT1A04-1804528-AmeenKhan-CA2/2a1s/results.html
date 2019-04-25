@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us!</title>
+    <!--
+    Sp¡ce-Indian Classical Music in Singapore
+    Filename: results.html
+      
+    Author:  Ameen Khan 
+    Date:    30/07/2018
+    Class:   DIT/FT/1A/04
+    WCD CA2 Submission
+
+    ***To prevent copystrike***
+       (images.spiceLogo.png) -> https://pendle.realtd.co.uk/app/uploads/2017/11/Time-Credits-Logo-1515688540-990x660.png
+    -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="It's in Singapore?! Yes! Click on the link to find out"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,900' rel='stylesheet' type='text/css'/>
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet" type='text/css'/>
+    <link rel="author" href="https://www.facebook.com/MyridianStar"/>
+    <script src="modernizr.custom.62074.js"></script>
+    <script src="script.js"></script>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <div class="container">
+                <header>
+                        <nav class="headnavbar">
+                                <p class="navlink"><a href="index.html">Home</a></p>
+                                <p class="navlink"><a href="sg.html">It's in Singapore?</a></p>
+                                <p><a href="index.html"><img class="logo" src="images/spiceLogo.png" width="150" height="150" alt="Sp¡ce"></a></p>
+                                <p class="navlink"><a href="pioneers.html">The Pioneers</a></p>
+                                <p class="navlink"><a href="contact-us.html">Contact Us</a></p>
+                            </nav>
+                            <div class="progress-container">
+                                <div class="progress-bar" id="myBar"></div>
+                            </div> 
+                    </header>
+                <article>
+                        <div class="container">
+                                <h2>Your form has been submitted</h2>
+                                <h3>You entered the following data:</h3>
+                          
+                                <script>
+                                    var formData = location.search;
+                                    formData = formData.substring(1, formData.length);
+                                    while (formData.indexOf("+") !== -1) {
+                                       formData = formData.replace("+", " ");
+                                    }
+                                    formData = decodeURIComponent(formData);
+                                    var formArray = formData.split("&");
+                                    for (var i = 0; i < formArray.length; i = i + 1) {
+                                       document.write("<p>" + formArray[i] + "</p>");
+                                    }
+                                </script>
+                            </div>
+                </article>
+        <footer>
+                <p>Thanks for stopping by!
+                    If you like what you see, come chat with me!</p>
+                    <p>Call Me at <a href="tel:+6593917470" >(+65) 9391 7470</a> or Find me next to <a href="https://www.google.com.sg/maps/place/RW+Selmor/@1.3055885,103.8520442,21z/data=!4m5!3m4!1s0x31da19b8e03144b7:0x4b3651d62b7b0a13!8m2!3d1.3054764!4d103.8522155">RW Selmor</a></p>
+                    <div><p><a href="https://www.instagram.com/ameen_himself/" target="_blank"><img src="images/insta.png" width="40" height="40" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/MyridianStar" target="_blank"><img src="images/facebook.png" width="40" height="40" alt="Facebook"></a>
+                    <a href="mailto:ameenkhan1208@gmail.com?Subject=Can%20we%20chat?" target="_top"><img src="images/gmail.png" width="40" height="40" alt="Gmail"></a></p></div>
+            </footer>
+        </div>
+    </body>
+</html>
+<!--
+Sp¡ce-Indian Classical Music in Singapore
+Filename: results.html
+
+Author:  Ameen Khan 
+Date:    30/07/2018
+Class:   DIT/FT/1A/04
+WCD CA2 Submission
+-->
